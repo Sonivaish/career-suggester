@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Career Suggestions</title>
+  </head>
+  <body>
+    <h1>Top Career Suggestions for You</h1>
+
+    {% if suggestions %}
+     <ul>
+         {% for career in suggestions %}
+            <li>{{ career }}</li>
+          {% endfor %}
+     </ul>
+    {% else %}
+       <p>No matching careers found. Try using different keywords.</p>
+    {% endif %}
+
+    <br>
+    <a href="/"> Go back</a>
+  </body>
+</html>
