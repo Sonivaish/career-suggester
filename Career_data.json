@@ -1,0 +1,19 @@
+[
+  {
+    "career": "Data Scientist",
+    "keywords": ["data" , "statistics" , "python" , "machine learning" , "analyze"]
+  },
+  {
+    "career": "Web Developer",
+    "keywords": ["html" , "css" , "python" , "javascript" , "frontend" , "backend" , "web"]
+  },
+  {
+    "career": "UX Designer",
+    "keywords": ["design" , "ui", "ux" , "creative" , "figma" , "user experience"]
+  },
+  {
+    "career": "Cybersecurity Analyst",
+    "keywords": ["security" , "network" , "hacking" , "ethical" , "firewall"]
+  }
+]
+  
