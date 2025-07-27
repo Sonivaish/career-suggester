@@ -13,7 +13,7 @@ def suggest_careers(user_input):
         scores.append((career['career'], match_count))
 
     scores.sort(key=lambda x: x[1], reverse=True)
-    return[career for career, score in scores if score >0][:3]
+    return[career for career, score in scores if score > 0][:3]
 
 @app.route('/')
 def index():
