@@ -12,7 +12,7 @@ def suggest_careers(user_input):
         match_count = sum(1 for kw in career['keywords'] if kw in user_input.lower())
         scores.append((career['career'], match_count))
 
-    scores.sort(key=lamda x: x[1], reverse=True)
+    scores.sort(key=lambda x: x[1], reverse=True)
     return[career for career, score in scores if score >0][:3]
 
 @app.route('/')
